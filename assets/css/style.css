@@ -3,11 +3,11 @@
     padding: 0;
     margin: 0;
 }
-/* Changes background color of body */
+
 body {
     background-color: #d9dcd6;
 }
-/* Modifies appearance of content inside the header */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,7 +28,7 @@ body {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
 
@@ -49,7 +49,7 @@ a {
 p {
     font-size: 16px;
 }
-/* Changes the look of the picture that takes up the entire horizontal space */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +58,12 @@ p {
     background-size: cover;
     background-position: center;
 }
-/* Gives everything with the class "float-left" the instructions to move left 25px */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
-/* Gives everything with the class "float-right" the instructions to move right 25px */
+
 .float-right {
     float: right;
     margin-left: 25px;
@@ -74,7 +74,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* Everything that is assinged a "benefit" class is part of the column on the right hand side of the page" */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -160,7 +160,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* The classes below are modifying the images size */
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +172,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-/* The classes below are modifying the font size and positioning of the headers */
+
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +187,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* Modifies the appearance and positioning of the text at the bottom of the page */
+
 .footer {
     padding: 30px;
     clear: both;
@@ -198,4 +198,3 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-
